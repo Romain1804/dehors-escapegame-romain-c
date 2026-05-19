@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.police{
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*css couleur et img*/
+
+
+
+
+.bgsable {
+    background-color:rgba(255, 210, 107, 0.804)
+}
+
+.bgimg1{background-image: url(images.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;}
+    
+.bgimg2{background-image: url(fond-carte2.jpg);
+         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;}
+
+.colorwhite {
+    color: white;
+}
+
+.bglightblack {
+    background-color: rgba(0, 0, 0, 0.247)}
+
+
+/*flexbox*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colunm {
+    flex-direction: column;
+}
+
+.spacebetween {
+    justify-content: space-between;
+}
+
+.txtcenter {
+    justify-content: center;
+}
+
+.aligncenter {
+    align-items: center;
+}
+
+
+.spacearound{justify-content: space-around;}
+
+
+/*bouton et card*/
+
+.btn {
+    border: solid 5px transparent;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 10%;
+}
+
+.card {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    width: 30%;
+}
+
+
+/*agencement et mise en page*/
+
+.w70 {
+    width: 70px;
+}
+
+
+.w50 {
+    width: 50%;
+}
+
+.padright {
+    padding-right: 10px;
+}
+
+
+.padbottom50 {
+    padding-bottom: 50px;
+}
+
+
+.padbottom20 {
+    padding-bottom: 20px;
+}
+
+
+.padbottom10{padding-bottom: 10px;}
+
+
+.center {
+    text-align: center;
+}
+
+.margright30 {
+    margin-right: 30px;
+}
+
+
+.margbottom30 {
+    margin-bottom: 30px;
+}
+
+.margtop50{margin-top: 50px;}
