@@ -29,7 +29,8 @@
     background-color:rgba(255, 210, 107, 0.804)
 }
 
-.bgimg1{background-image: url(images.jpg);
+.bgimg1{height: 90vh;
+    background-image: url(images.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;}
@@ -44,7 +45,7 @@
 }
 
 .bglightblack {
-    background-color: rgba(0, 0, 0, 0.247)}
+    background-color: rgba(0, 0, 0, 0.475)}
 
 
 /*flexbox*/
@@ -81,7 +82,8 @@
     border-radius: 10px;
     background-color: white;
     color: black;
-    width: 10%;
+    width: fit-content;
+    padding: 5px 5px ;
 }
 
 .card {
@@ -114,6 +116,9 @@
 }
 
 
+.padtop50{padding-top: 50px;}
+
+
 .padbottom20 {
     padding-bottom: 20px;
 }
@@ -136,3 +141,5 @@
 }
 
 .margtop50{margin-top: 50px;}
+
+.margtop30{margin-top: 30px;}
