@@ -5,7 +5,10 @@
     text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
 
 .container {
     max-width: 1000px;
@@ -14,10 +17,23 @@
     margin-right: auto;
 }
 
-.police{
-  font-family: "Zilla Slab", serif;
-  font-weight: 300;
-  font-style: normal;
+
+
+
+
+.bolder {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.police {
+    font-family: "EB Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /*css couleur et img*/
@@ -25,27 +41,65 @@
 
 
 
-.bgsable {
-    background-color:rgba(255, 210, 107, 0.804)
+.bgclair {
+    background-color: #F4E0C0;
 }
 
-.bgimg1{height: 90vh;
+
+
+
+.bgimg1 {
+    height: 90vh;
     background-image: url(images.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;}
-    
-.bgimg2{background-image: url(fond-carte2.jpg);
-         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;}
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.bgimg2 {
+    background-image: url(fond-carte2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
 
 .colorwhite {
-    color: white;
+    color: #231B15
 }
 
+
+
+
+
+
+
+
+.colorclair {
+    color: rgb(250, 247, 240);
+}
+
+
+
+
+
+
+
 .bglightblack {
-    background-color: rgba(0, 0, 0, 0.475)}
+    background-color: rgb(228, 214, 169)
+}
+
 
 
 /*flexbox*/
@@ -55,60 +109,138 @@
     flex-wrap: wrap;
 }
 
+
+
+
+
+
+
 .colunm {
     flex-direction: column;
 }
+
+
+
+
+
+
 
 .spacebetween {
     justify-content: space-between;
 }
 
+
+
+
+
+
+
 .txtcenter {
     justify-content: center;
 }
+
+
+
+
+
 
 .aligncenter {
     align-items: center;
 }
 
 
-.spacearound{justify-content: space-around;}
 
 
-/*bouton et card*/
+/*bouton et card et survol*/
 
 .btn {
+    display: inline-block;
     border: solid 5px transparent;
     border-radius: 10px;
     background-color: white;
     color: black;
     width: fit-content;
-    padding: 5px 5px ;
+    padding: 5px 5px;
+    cursor: pointer;
 }
 
 .card {
     border: solid 5px transparent;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.39);
-    color: white;
+    color: rgb(250, 247, 240);
     width: 30%;
 }
 
 
+.btn:hover {
+    background-color: orange;
+}
+
+
+
 /*agencement et mise en page*/
+
+/* box et center*/
+
+
+.box {
+    position: fixed;
+    width: 100%;
+}
+
+
+
+
+
+
+.center {
+    text-align: center;
+}
+
+
+
+
+/*taille width*/
 
 .w70 {
     width: 70px;
 }
 
 
+
+
+
+
+
+.w100 {
+    width: 100%;
+}
+
+
+
+
+
+
+
 .w50 {
     width: 50%;
 }
 
+
+
+
+
+/*padding*/
+
 .padright {
     padding-right: 10px;
 }
+
+
+
+
+
 
 
 .padbottom50 {
@@ -116,7 +248,19 @@
 }
 
 
-.padtop50{padding-top: 50px;}
+
+
+
+
+
+.padtop50 {
+    padding-top: 50px;
+}
+
+
+
+
+
 
 
 .padbottom20 {
@@ -124,12 +268,31 @@
 }
 
 
-.padbottom10{padding-bottom: 10px;}
 
 
-.center {
-    text-align: center;
+
+
+
+
+.padding16 {
+    padding: 16px;
 }
+
+
+
+
+
+
+
+.padbottom10 {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/*margin*/
 
 .margright30 {
     margin-right: 30px;
@@ -140,6 +303,15 @@
     margin-bottom: 30px;
 }
 
-.margtop50{margin-top: 50px;}
+.margtop50 {
+    margin-top: 50px;
+}
 
-.margtop30{margin-top: 30px;}
+
+
+
+
+
+.margtop30 {
+    margin-top: 30px;
+}
